@@ -1,5 +1,4 @@
-#ifndef FILEWORKER_H
-#define FILEWORKER_H
+#pragma once
 
 #include <QObject>
 #include <QByteArray>
@@ -43,4 +42,4 @@ private:
     bool m_start;
 };
 
-#endif // FILEWORKER_H
+

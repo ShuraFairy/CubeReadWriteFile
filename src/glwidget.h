@@ -1,6 +1,4 @@
-//#pragma once
-#ifndef GLWIDGET_H
-#define GLWIDGET_H
+#pragma once
 
 #include <QOpenGLWidget>
 #include <QOpenGLFunctions_4_5_Core>
@@ -107,4 +105,4 @@ private:
     bool m_isRunning;
 };
 
-#endif
+

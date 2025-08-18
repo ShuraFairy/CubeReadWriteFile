@@ -1,5 +1,4 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#pragma once
 
 #include <QMainWindow>
 #include <QByteArray>
@@ -90,12 +89,10 @@ private:
     QSlider *bSlider;    
     QGroupBox * openglGroup;
 
-    // Controls components
-    //QPushButton *m_startStopButton;
-    //QPushButton *m_directionButton;
+    // Controls components  
     QPushButton *m_cancelButton;
     QSlider *m_speedSlider;
-    QLabel *m_statusLabelRotate;
+//    QLabel *m_statusLabelRotate;
 };
 
-#endif // MAINWINDOW_H
+
