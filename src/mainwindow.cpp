@@ -274,7 +274,7 @@ void MainWindow::setupUI()
 
     connect(m_speedSlider, &QSlider::valueChanged, glWidget, &GLWidget::setRotationSpeed);
 
-    setWindowTitle("File Processor");
+    setWindowTitle("CubeReadWriteFile");
     resize(800, 800);
 }
 
